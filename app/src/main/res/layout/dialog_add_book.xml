@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Details"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Title" />
+
+    <Button
+        android:id="@+id/btnPaste"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paste Title"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/etDialogAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Author Name"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/etDialogISBN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ISBN (Leave blank for auto)"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etDialogYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Publication Year"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSaveBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Book"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

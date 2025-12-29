@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_all_books" android:title="All Books" />
+        <item android:id="@+id/nav_my_books" android:title="View Your Books" />
+        <item android:id="@+id/nav_add_book" android:title="Add New Book" />
+        <item android:id="@+id/nav_settings" android:title="Settings" />
+        <item android:id="@+id/nav_delete_account" android:title="Delete Account" />
+        <item android:id="@+id/nav_logout" android:title="Logout" />
+    </group>
+</menu>
